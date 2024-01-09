@@ -25,12 +25,14 @@
         <EditText
             android:id="@+id/edtPrecio"
             android:layout_width="200dp"
+            android:inputType="number"
             android:layout_height="wrap_content"
             android:hint="Pre$io" />
         <EditText
             android:id="@+id/edtCantidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="number"
             android:hint="Cantidad"
             android:text="1" />
     </LinearLayout>
